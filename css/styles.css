@@ -1,0 +1,118 @@
+body{
+    background-color: #EEEEEE;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0px; 
+    margin: 0px;
+}
+
+.navbar{
+    display: flex;
+    background-color: #0677BA;
+    align-items: center;
+    padding: 20px 0px 20px 250px;
+}
+
+.main-page{
+    background-color: #f9f9f8;
+    padding: 80px 0px 110px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+section{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #DBDBDB;
+    width: 20em;
+    padding: 15px 25px 25px 25px;
+    font-family: "Uriel", "Helvetica Neue", Arial, Helvetica, sans-serif;
+    
+}
+
+.title-form{
+    margin-bottom: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title-form span{
+    font-size: 18px;
+    font-family: Georgia, "Times New Roman", serif;
+}
+
+.title-form a{
+    font-size: 12px;
+    font-family: "Uriel", "Helvetica Neue", Arial, Helvetica, sans-serif;
+    color: #9A9FA8;
+    text-decoration: none;
+}
+
+.text-area{
+    margin-bottom: 10px;
+}
+
+.text-area input{
+    border: 2px solid #DBDBDB;
+    background-color: #EEEEEE;
+    color: #666;
+    width: 300px;
+    font-family: "Uriel", "Helvetica Neue", Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding: 9px;
+}
+
+.text-area input::placeholder{
+    color: rgb(148, 148, 148);
+}
+
+.text-area input:focus {
+    border: 2px solid #2a66aa;
+    outline: none;
+}
+
+.description{
+    margin-bottom: 10px;
+    color: #9a9fa8;
+    font-size: 12px;
+}
+
+.buttom input{
+    background-color: #4fb2d3;
+    border: 0px solid #DBDBDB;
+    color: #EEEEEE;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    width: 323px;
+    padding: 9px;
+}
+
+.buttom input:hover{
+    background-color: #3EA1C1;
+    cursor: pointer;
+}
+
+footer{
+    padding: 2.7% 0% 0% 14.75%;
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+    color: #556370;
+    height: 100%;
+    background-color: #EEEEEE;
+    font-size: 13px;
+}
+
+footer a{
+    color: #556370;
+    text-decoration: none;
+}
+
+footer a:hover{
+    border-bottom: 1px solid #556370;
+}
+
+footer .privacy{
+    font-weight: bold;
+}
